@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+</head>
+<link rel="stylesheet" href="examen.css">
+
+<body>
+    <div class="cajaultrapadre">
+        <!--Caja ultrapadre contiene (su creacion fue unicamente para ubicar a cajapadre) todo lo que esta dentro de cajapadre-->
+        <div class="cajapadre">
+            <!-- cajapadre es el padre de caja, la cual contiene todos los elementos por excepcion de contacto-->
+            <div class="caja"> <!-- caja contiene los elementos-->
+
+                <div class="imagen"> <img src="images.jpeg" width="500px"> </div> <!-- imagen-->
+                <div class="cajarriba"> <!-- Esta clase la cree para organizar la parte superior del trabajo-->
+                    <div class="textoimg">
+                        <!-- textoimg es la clase que utilice para darle el tamaño y color al texto de la imagen-->
+                        <p class="texto"> <!--clase blanco da el color blanco a las letras --><span class="azulejo">
+                                Licenciatura
+                                en</span><!--Azulejo a diferencia de azul lo utilice para crearle el fondo azul con las letras blancas-->
+                            <br>Administracion de Areas
+                            <br>Naturales
+                        </p>
+                        <div class="primerverificado"> <img src="verificado.png" height="80px" width="80px"></div>
+                        <!-- Primer verificado es para darle distintas propiedades en css a la imagen, para diferenciarla de verificated-->
+                    </div>
+                    <div class="bajacaja"> <!-- bajacaja es la parte inferior del trabajo, la cual contiene -->
+                        <div class="cajape"> <!--cajape es la caja del pinguino y su texto-->
+                            <div class="pinguino"> <img src="pinguino.png" width="50px"> </div>
+                            <div>
+                                <p class="aguadito"> <span class="jere">Lic. en Administracion de Areas
+                                        Naturales</span>
+                                    <br>Presenciar Pto.Madryn <br>Duracion 5 años
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cajav">
+                            <!-- cajav es la caja la cual contiene al "verificated" con su respectivo texto-->
+                            <div>
+                                <img src="verificado.png" width="50px">
+                            </div>
+                            <p class="aguados"> <span class="jeredos ">Tec.Univ. Guardaparques</span>
+                                <br> Presencial Pto.Madryn <br> Duracion 3 años.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="ubicacionc">
+            <!-- esta clase la cree para ubicar al contacto, cosa que no me salia antes de su creacion-->
+            <div class="contacto"> <!-- esta caja contiene los elementos para crear el contacto-->
+                <img class="sobre" src="sobre.png" width="45px">
+                <p class="psobre">Contactar</p>
+            </div>
+        </div>
+</body>
+
+</html>
+
+
+<!--prototipo fallido    <div class="parte">
+            <div class="cajape">
+                <div class="pinguino">
+                    <img src="pinguino.png" width="50px">
+                </div>
+                <div class="azul">
+                    <p> Lic. en Administracion de Areas Naturales</p>
+                </div>
+                <div class="verdeagua">
+                    <p>Presenciar Pto.Madryn <br>Duracion 5 años</p>
+                </div>
+            </div>
+            <div class="cajav">
+                <div class="verificated">
+                    <img src="verificado.png" width="50px">
+                </div>
+                <div class="azul">
+                    <p>Tec.Univ. Guardaparques</p>
+                </div>
+                <div class="verdeagua"> <p>Presencial Pto.Madryn <br> Duracion 3 años.</p></div>
+            </div>
+        </div></div> -->

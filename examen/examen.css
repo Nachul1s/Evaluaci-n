@@ -1,0 +1,101 @@
+.cajapadre{
+    width: 600px;
+    display: flex; 
+     justify-content: center ;  
+     border: 1px solid black;
+      /* estos son los valores que le di a caja padre para centrarla, darle borde y tamaño*/ 
+} 
+.cajaultrapadre{
+    display: flex;
+    justify-content: center; 
+    /*Cajaultrapadre fue creado simplemente para centrarlo en pantalla */
+}
+.texto {
+    /* rip blanco 14/11/24 14:35hs -- 14/11/24 16:10hs, desde ahora seras reconocido como texto, servia para poner el texto en blanco de imagen */
+    color: white;
+    font-size: 20px;
+    
+}
+.cajarriba{
+    display: flex; 
+    padding: 30px; /* estas son las propiedades que utilice para que caja arriba se mantenga bien */
+    position: relative;
+    bottom: 10px;
+}
+.imagen
+{
+    margin: 10px;
+}  
+.azulejo {   
+    /* azulejo le da el fondo azul al texto en la imagen y la letra en blanco*/
+    background-color: blue;
+    color: white;
+}
+
+.textoimg { /* estas son las propiedades para acomodar al texto de la imagen */
+    display: flex;
+    position: absolute;
+   bottom: 250px;
+   
+
+}
+.caja { 
+    /* Esto es para que caja ocupe el 100% y tenga un pequeño perimetro de espacio*/
+    width: 100%;
+   padding: 30px; 
+   position: relative
+   
+}
+.jere {
+    /* es para el texto del pinguino*/
+    font-size: 22px ;
+    color:blue;
+}
+.cajape{
+    /*esto es para alinear la caja del pinguino */
+    display: flex;
+}
+.primerverificado {
+    /*Esto es para acomodar al primerverificado dentro de la imagen*/
+    display: flex;
+    position: relative;
+    
+    left: 170px;
+    
+    
+}
+.aguadito { /*aca le doy el color verde agua a las letras con esta clase */
+    color: rgb(119, 226, 190);
+}
+.cajav {
+    display: flex; /*Aca pude alinear el contenido de cajav con display flex*/
+}
+.jeredos {
+    /* aca cambie la clase para darle distintas propiedades ya que no son iguales*/
+    font-size: 22px ;
+    color:blue;
+    padding: 3px;
+}
+.aguados { /* Lo mismo que con azuldos, distintas propiedades para diferenciarlos */
+    padding: 4px;
+    color: rgb(119, 226, 190);
+}
+
+.contacto{ /*Estas son las propiedades para el contacto*/
+    display: flex;
+    border: 1px rgb(116, 227, 254) solid   ;
+    border-radius: 15px;
+    background-color: rgb(116, 227, 254);
+  justify-content: space-evenly;
+   width: 120px; 
+   left:925px;
+}
+.ubicacionc{ /* aca ubique a contacto*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 12px;
+}
+.psobre{ /*aca le di el color al texto del sobre*/
+    color: white;
+}
